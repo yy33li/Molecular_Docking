@@ -17,7 +17,7 @@
 * A file path to store docking result (result_csv)
 ### 3. Process input file - Compounds
 * prepare_compounds.py
-**Args:**:
+**Args:**
 * input_smiles
 * smiles_col: Column name that stores compound SMILES
 * output_csv
