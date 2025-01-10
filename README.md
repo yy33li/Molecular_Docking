@@ -2,7 +2,7 @@
 ## The scripts are designed to perform docking analysis using modules available on Compute Canada and simplier commands.
 ## Environment:
 * Python package in used: Pandas (Please ensure it is installed in your python environment)
-* autodock_vina
+* Autodock Vina
 * openbabel
 ## Usage:
 ### Once the input file path and directory are entered in the bash script, the bash script is ready to submit on Compute Canada
@@ -17,12 +17,15 @@
 * A file path to store docking result (result_csv)
 ### 3. Process input file - Compounds
 * prepare_compounds.py
-##### Args:
+** Args: **:
 * input_smiles
 * smiles_col: Column name that stores compound SMILES
 * output_csv
 * store_path
-##### E.g. python prepare_compounds.py input_smiles smiles_col output_csv store_path
+** E.g.: **
+```bash
+python prepare_compounds.py input_smiles smiles_col output_csv store_path
+```
 ### 4. Process input file - Receptor/protein
 #### OpenBabel is used to prepare receptor/protein file for docking
 ##### E.g. obabel receptor.pdb -O receptor.pdbqt -xr -p 7.4 --partialcharge eem
