@@ -46,4 +46,5 @@ E.g.
 python collect_results.py store_path result_csv
 ```
 ### Tip for performing docking on large database:
-#### The input SMILES file can be divided into multiple smaller files, allowing you to run the job in parallel
+
+The input SMILES file can be divided into multiple smaller files, allowing you to run the job in parallel
