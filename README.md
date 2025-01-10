@@ -17,23 +17,23 @@
 * A file path to store docking result (result_csv)
 ### 3. Process input file - Compounds
 * prepare_compounds.py
-Args:
+##### Args:
 * input_smiles
 * smiles_col: Column name that stores compound SMILES
 * output_csv
 * store_path
-E.g. python prepare_compounds.py input_smiles smiles_col output_csv store_path
+##### E.g. python prepare_compounds.py input_smiles smiles_col output_csv store_path
 ### 4. Process input file - Receptor/protein
 #### OpenBabel is used to prepare receptor/protein file for docking
-#### E.g. obabel receptor.pdb -O receptor.pdbqt -xr -p 7.4 --partialcharge eem
+##### E.g. obabel receptor.pdb -O receptor.pdbqt -xr -p 7.4 --partialcharge eem
 ### 5. Docking
 #### Autodock Vina is used to estimate binding affinity of given compound and receptor/protein
 #### E.g. vina --config confpath --ligand com.pdbqt --receptor receptor.pdbqt --out out.pdbqt --log log.txt
 ### 6. Collect results
 * collect_results.py
-#### Args:
+##### Args:
 * store_path
 * result_csv
-#### E.g. python collect_results.py store_path result_csv
+##### E.g. python collect_results.py store_path result_csv
 ### Tip for performing docking on large database:
 #### The input SMILES file can be divided into multiple smaller files, allowing you to run the job in parallel
