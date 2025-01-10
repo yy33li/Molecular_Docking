@@ -5,8 +5,8 @@
 
 ## Usage:
 ### Required input files:
-##### 1. The CSV file that store SMILES for all the compounds
-##### 2. The receptor/protein PDB file 
-##### 3. The configuration file that stores center and size of the grid box
+* The CSV file that store SMILES for all the compounds
+* The receptor/protein PDB file 
+* The configuration file that stores center and size of the grid box
 
 
