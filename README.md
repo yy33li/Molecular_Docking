@@ -29,11 +29,21 @@ E.g.
 python prepare_compounds.py input_smiles smiles_col output_csv store_path
 ```
 ### 4. Process input file - Receptor/protein
-#### OpenBabel is used to prepare receptor/protein file for docking
-##### E.g. obabel receptor.pdb -O receptor.pdbqt -xr -p 7.4 --partialcharge eem
+
+OpenBabel is used to prepare receptor/protein file for docking
+
+E.g.
+```bash
+obabel receptor.pdb -O receptor.pdbqt -xr -p 7.4 --partialcharge eem
+```
 ### 5. Docking
-#### Autodock Vina is used to estimate binding affinity of given compound and receptor/protein
-#### E.g. vina --config confpath --ligand com.pdbqt --receptor receptor.pdbqt --out out.pdbqt --log log.txt
+
+Autodock Vina is used to estimate binding affinity of given compound and receptor/protein
+
+E.g. 
+```bash
+vina --config confpath --ligand com.pdbqt --receptor receptor.pdbqt --out out.pdbqt --log log.txt
+```
 ### 6. Collect results
 * collect_results.py
 
