@@ -3,7 +3,7 @@
 ## Environment:
 * Python package in used: Pandas (Please ensure it is installed in your python environment)
 * Autodock Vina
-* openbabel
+* Open Babel
 ## Usage:
 
 After specifying the input file path and directory in the bash script, it is ready for submission to Compute Canada.
