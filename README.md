@@ -6,7 +6,7 @@
 * openbabel
 ## Usage:
 
-Once the input file path and directory are entered in the bash script, the bash script is ready to submit on Compute Canada
+After specifying the input file path and directory in the bash script, it is ready for submission to Compute Canada.
 ## Important commands in the bash script:
 ### 1. Required input files:
 * The CSV file that store SMILES for all the compounds (input_smiles)
