@@ -24,7 +24,7 @@ Args:
 * output_csv
 * store_path
 
-E.g.:
+E.g.
 ```bash
 python prepare_compounds.py input_smiles smiles_col output_csv store_path
 ```
@@ -36,9 +36,14 @@ python prepare_compounds.py input_smiles smiles_col output_csv store_path
 #### E.g. vina --config confpath --ligand com.pdbqt --receptor receptor.pdbqt --out out.pdbqt --log log.txt
 ### 6. Collect results
 * collect_results.py
-##### Args:
+
+Args:
 * store_path
 * result_csv
-##### E.g. python collect_results.py store_path result_csv
+
+E.g.
+```bash
+python collect_results.py store_path result_csv
+```
 ### Tip for performing docking on large database:
 #### The input SMILES file can be divided into multiple smaller files, allowing you to run the job in parallel
