@@ -1,5 +1,5 @@
-# Molecular Docking on Compute Canada
-## The scripts are designed to perform docking analysis using modules available on Compute Canada and simplier commands.
+# Blind Docking on Compute Canada
+## The scripts are designed to perform blind docking analysis using modules available on Compute Canada and simplier commands.
 ## Environment:
 * Python package in used: Pandas (Please ensure it is installed in your python environment)
 * Autodock Vina
