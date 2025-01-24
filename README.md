@@ -1,5 +1,5 @@
 # Blind Docking on Compute Canada
-## The scripts are designed to perform blind docking analysis using modules available on Compute Canada and simplier commands.
+## The scripts are designed to perform blind docking analysis (virtual screening) using modules available on Compute Canada and simplier commands.
 ## Environment:
 * Python package in used: Pandas (Please ensure it is installed in your python environment)
 * Autodock Vina
