@@ -7,7 +7,7 @@
 ## Usage:
 
 After specifying the input file path and directory in the bash script, it is ready for submission to Compute Canada.
-## Important commands in the bash script:
+## Commands explanation in the bash script:
 ### 1. Required input files:
 * The CSV file that store SMILES for all the compounds (input_smiles)
 * The receptor/protein PDB file
